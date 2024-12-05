@@ -5,7 +5,27 @@
 // primitive datatypes
 // Number, bigint, string, boolean, null(standalone value), undefined, symbol(unique)
 
-// object
+const id = Symbol('123')
+const A_id = Symbol('123')
+console.log((id===A_id));
+
+// Non-primitive(Referenced) datatypes
+// object, array, function
+
+let a = [1,2,3,4]
+
+let b ={
+    name: war,
+    id:1
+}
+
+const myFunction=function(){}
+
+
+// Stack(primitive hamesha hota hai) ,heap(Non-primitive(Referenced))
+
+
+
 // NULL ka type => object hai
 // undefined ka type => undefined hai
 // typeof to check types.
